@@ -1,0 +1,30 @@
+
+class Product implements Comparable{
+  int id;
+  String name;
+  double price;
+  public Product(int id,String name,double price){
+    this.id=id;
+    this.name=name;
+    this.price=price;
+  }
+  @Override
+  public int compareTo(Object O){
+    Product c=(Product)O;
+    if(this.price=c.price)
+      return 0;
+    else if(this.price>c.price)
+      return 1;
+    else
+      return -2;
+  }
+}
+class Compare{
+  public static void main(String[] args) {
+    Compare c[]=new Compare[3];
+    c[0]=new Compare(1,"jaya",56);
+    c[1]=new Compare(2,"laya",76);
+    c[2]=new Compare(3,"maya",89);
+    Arrays.sort(c);
+  }
+}

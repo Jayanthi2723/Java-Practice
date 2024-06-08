@@ -1,0 +1,12 @@
+ID,Make,Model,Year,Price
+1,Toyota,Corolla,2020,195000
+2,Honda,Civic,2019,185000
+3,Volkswagen,Golf,2021,215000
+4,Ford,Mustang,2018,450000
+5,BMW,3 Series,2022,380000
+6,Mercedes-Benz,C-class,2020,410000
+7,Audi,A4,2021,395000
+8,Chevrolet,Cruze,2019,165000
+9,Missan,Altima,2020,200000
+39,Audi,AG,2021,260000
+40,Mercedes-Benz,GLE,2022,960000
